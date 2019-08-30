@@ -4,12 +4,29 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 Peyman Norouzi
+* [LinkedIn](https://www.linkedin.com/in/peymannorouzi)
+* Tested on: (TODO) Windows 10, i7-6700 @ 3.40GHz 16GB, Quadro K620 2048MB (Moore 100C Lab)
+* Cuda Compute Capability: 	5.0
 
-Linked-in: https://www.linkedin.com/in/peymannorouzi
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+Since I used Moore 100C Computers I wasn't able to complete DXR part of the assignment.
 
-### (TODO: Your README)
+## Screenshots:
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+WebGL:
 
+![Alt text](images/WebGL.jpg "WebGL")
+
+
+Cuda Window: 
+
+![Alt text](images/Part4_modify.jpg "Cuda")
+
+
+Trace Timeline:
+
+![Alt text](images/Part%205.jpg "Trace")
+
+
+Nsight Debugging:
+
+![Alt text](images/Nsight_debugging.jpg "Debugging")
