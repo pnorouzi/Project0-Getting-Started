@@ -1,4 +1,24 @@
-﻿  main.cpp
+﻿  Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  -- Removing S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  "C:/Program Files/CMake/bin/cmake.exe" -E remove "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj"
+  -- Generating dependency file: S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend
+  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/nvcc.exe" -M -D__CUDACC__ "S:/CIS 565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu" -o "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend" -ccbin "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe" -m64 -DCUDA_COMPUTE_50 -DGLEW_STATIC -Xcompiler ,\"/DWIN32\",\"/D_WINDOWS\",\"/W3\",\"/GR\",\"/EHsc\",\"/MDd\",\"/Zi\",\"/Ob0\",\"/Od\",\"/RTC1\" -gencode arch=compute_50,code=sm_50 -g -G -DNVCC "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include" "-IS:/CIS 565/Project0-Getting-Started/cuda-getting-started/external/include"
+  kernel.cu
+  -- Generating temporary cmake readable file: S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp
+  "C:/Program Files/CMake/bin/cmake.exe" -D "input_file:FILEPATH=S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend" -D "output_file:FILEPATH=S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp" -D verbose=ON -P "C:/Program Files/CMake/share/cmake-3.15/Modules/FindCUDA/make2cmake.cmake"
+  -- Copy if different S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp to S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend
+  "C:/Program Files/CMake/bin/cmake.exe" -E copy_if_different "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp" "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend"
+  -- Removing S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp and S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend
+  "C:/Program Files/CMake/bin/cmake.exe" -E remove "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp" "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend"
+  -- Generating S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/nvcc.exe" "S:/CIS 565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu" -c -o "S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj" -ccbin "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe" -m64 -DCUDA_COMPUTE_50 -DGLEW_STATIC -Xcompiler ,\"/DWIN32\",\"/D_WINDOWS\",\"/W3\",\"/GR\",\"/EHsc\",\"/MDd\",\"/Zi\",\"/Ob0\",\"/Od\",\"/RTC1\" -gencode arch=compute_50,code=sm_50 -g -G -DNVCC "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include" "-IS:/CIS 565/Project0-Getting-Started/cuda-getting-started/external/include"
+  kernel.cu
+S:/CIS 565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu(68): warning C4996: 'cudaThreadSynchronize': was declared deprecated
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_runtime_api.h(957): note: see declaration of 'cudaThreadSynchronize'
+  Generated S:/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj successfully.
+  Building Custom Rule S:/CIS 565/Project0-Getting-Started/cuda-getting-started/CMakeLists.txt
+  glslUtility.cpp
+  main.cpp
 S:\CIS 565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(94): warning C4996: 'cudaGLRegisterBufferObject': was declared deprecated
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\cuda_gl_interop.h(327): note: see declaration of 'cudaGLRegisterBufferObject'
 S:\CIS 565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(135): warning C4996: 'cudaGLSetGLDevice': was declared deprecated
@@ -9,6 +29,7 @@ S:\CIS 565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(175): warn
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\cuda_gl_interop.h(382): note: see declaration of 'cudaGLUnmapBufferObject'
 S:\CIS 565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(224): warning C4996: 'cudaGLUnregisterBufferObject': was declared deprecated
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\cuda_gl_interop.h(404): note: see declaration of 'cudaGLUnregisterBufferObject'
+  Generating Code...
      Creating library S:/CIS 565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.lib and object S:/CIS 565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.exp
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
